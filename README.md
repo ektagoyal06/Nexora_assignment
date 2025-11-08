@@ -29,7 +29,7 @@ Setup Instructions
 
 1. Clone the Repository:
    
-git clone <your-repository-url>
+git clone (https://github.com/ektagoyal06/Nexora_assignment.git)
 
 cd e-com cart
 

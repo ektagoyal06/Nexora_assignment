@@ -1,16 +1,68 @@
-# React + Vite
+E-com cart
+An E-Commerce website to shop anything related to electronics, clothes, accessories and other things.
+This project is a MERN-based e-commerce cart system where users can browse products, add them to the cart, proceed to checkout, and place an order. The order details are then stored in MongoDB.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
 
-Currently, two official plugins are available:
+-Display list of products
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Add/remove products from cart
 
-## React Compiler
+-Calculate cart totals dynamically
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-Checkout modal collects user details
 
-## Expanding the ESLint configuration
+-Order Success Modal displays summary
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-Orders stored in MongoDB
+
+
+Tech Stack
+
+-Frontend: React + Tailwind CSS
+
+-Backend: Node.js, Express.js
+
+-Database: MongoDB + Mongoose
+
+Setup Instructions
+
+1. Clone the Repository:
+   
+git clone <your-repository-url>
+
+cd e-com cart
+
+2.Install Dependencies
+
+Backend
+
+cd backend
+
+npm install
+
+Frontend
+
+cd frontend
+
+npm install
+
+3.Configure Environment Variables
+
+Create a .env file in the backend folder:
+
+MONGO_URI=your_mongodb_connection_string
+
+PORT=5000
+
+4.Run the Backend
+
+cd backend
+
+node server.js
+
+5.Run the Frontend
+
+cd frontend
+
+npm run dev
